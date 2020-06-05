@@ -1,0 +1,62 @@
+.test-view-container{
+  border-radius: 30px;
+  background-color:#66B2FF;
+  padding: 30px 20px 50px 20px;
+  margin: 50px;
+}
+
+.questionName{
+  font-size: 25px;
+  font-style: oblique;
+  margin: 2% 0 0 10%;
+  padding-top: 1px;
+}
+
+.button-answers{
+font-size: 20px;
+text-align: center;
+border-radius: 15px;
+border: #CCE5FF;
+margin: 5px 15px 5px 25px;
+padding:50px;
+width: 45%;
+background-color:#CCE5FF;
+}
+
+@media only screen and(min-width:1108px){
+  .button-answers{
+    width: 60%;
+    margin-left: 50px;
+  }
+}
+
+.test-quiz-outside-container {
+  border-radius: 30px;
+  background-color:#3399FF;
+  padding: 3% 2% 5% 2%;
+  margin: 5%;
+}
+
+.button-next-question{
+  font-size: 20px;
+  border-radius: 15px;
+  border: solid gery;
+  background-color:#CCE5FF;
+  padding:15px;
+  width: 25%;
+  margin: 2% 15% 0 37%;
+}
+
+#progress{
+    height:20px;
+    border:solid 2px #CCE5FF;
+    border-radius: 10px;
+    width: 100%;
+}
+
+#progress #bar{
+    border-radius: 10px;
+    height:20px;
+    width:0%;
+    background:#0066CC;
+}

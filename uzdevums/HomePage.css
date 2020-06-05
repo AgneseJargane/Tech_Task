@@ -1,0 +1,67 @@
+@media screen and(min-with:360px){
+  .task-name{
+    font-size: 35px;
+  }
+}
+
+@media only screen and(min-width:360px){
+  .register-container{
+  margin: 10%;
+  }
+}
+
+@media screen and(min-width:360px){
+  .register-fields{
+    border: 2px solid grey;
+    border-radius: 10px;
+    width: 50%;
+    margin: 2px 25px 2px 50px;
+    padding: 2px;
+    background-color: #CCE5FF;
+  }
+}
+
+.task-name{
+  margin-top: 5%;
+  font-family: sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.register-outside-container{
+  border-radius: 20px;
+  padding: 2%;
+  margin:  2% 15% 2% 15%;
+  background-color: #CCE5FF;
+}
+
+.register-container{
+  border-radius: 20px;
+  background-color:#66B2FF;
+  padding: 10%;
+  margin: 5% 10% 5% 10%;
+}
+
+.register-fields{
+  border: 2px solid grey;
+  border-radius: 10px;
+  width: 60%;
+  margin: 1% 20% 2% 20%;
+  padding: 7px;
+  background-color: #CCE5FF;
+  display: inline-block;
+}
+
+.register-fields-dropdown{
+  width: 63%;
+}
+
+.button-register{
+  margin: 3% 0 0 35%;
+  padding: 8px;
+  width: 40%;
+  border: 2px solid grey;
+  border-radius: 10px;
+  background-color:#CCE5FF;
+  display: block
+}

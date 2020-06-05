@@ -1,0 +1,43 @@
+.result-view-container{
+  border-radius: 35px;
+  background-color:#66B2FF;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  margin-bottom: 0px;
+  margin-top: auto;
+  margin-right: 10%;
+  margin-left:10%
+}
+
+@media screen and(min-width : 375px){
+  .result-view-container{
+    margin-bottom:40px;
+  }
+}
+
+.inner-container{
+  border-radius: 35px;
+  background-color:#99CCFF;
+  margin: 5%;
+  padding: 5%;
+}
+
+.username-result-view {
+font-size: 50px;
+text-align: center;
+}
+
+.correct-answers{
+text-align: center;
+font-size: 20px;
+}
+
+.start-new-test{
+  font-size: 20px;
+  border-radius: 15px;
+  border: solid gery;
+  background-color:#99CCFF;
+  padding:15px;
+  width: 25%;
+  margin: 2% 15% 0 37%;
+}
